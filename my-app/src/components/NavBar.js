@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
-import navIcon1 from '../assets/img/nav-icon1.svg';
+import navIcon1 from '../assets/img/nav-icon1.svg'; 
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon1purple from "../assets/img/nav-icon1p.svg";
 import navIcon2purple from "../assets/img/nav-icon2p.svg";
