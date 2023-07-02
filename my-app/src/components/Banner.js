@@ -20,7 +20,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Taylor`}<br></br>
-                <Typed strings={["Web Developer", "Web Designer", "UI/UX Designer"]} typeSpeed={70} backSpeed={40} backDelay={3000} loop/></h1>
+                <Typed strings={["Web Developer", "Web Designer", "Software Engineer"]} typeSpeed={70} backSpeed={40} backDelay={3000} loop/></h1>
 
                 <p>I'm a 23 year old graduate from the University at Buffalo. 
                 I've recently moved from New York to Texas! 

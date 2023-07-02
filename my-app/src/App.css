@@ -33,7 +33,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: linear-gradient(to bottom, #3c46f4, #5e229d) !important;
+  background-color: linear-gradient(to bottom, #3c46f4,  #6c229d) !important;
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -101,7 +101,7 @@ nav.navbar {
 /* Once scrolled, background color changes*/
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #5E229D;
+  background-color: #6c229d;
 }
 
 nav.navbar a.navbar-brand {
@@ -207,7 +207,7 @@ span.navbar-text {
 }
 
 .navbar-text button:hover {
-  color: #5E229D;
+  color:  #6c229d;
 }
 
 .navbar-text button:hover::before {
@@ -273,9 +273,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Banner CSS ************/
 .banner {
   margin-top: 0;
-  padding: 260px 0 100px 0;
+  padding: 5% 0 30% 0;
   background-image: linear-gradient(
-    to bottom, transparent,  80%, #5e229d
+    to bottom, transparent,  80%,  #6c229d
   ), url('./assets/img/banner-bg.png');
   background-position: top center;
   background-size: cover;
@@ -353,16 +353,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills CSS ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 20% 0 15% 0;
   position: relative;
+  background-image: linear-gradient(to bottom, #000000, #000000);
 }
 
 .skill-bx {
-  background: #151515;
+  z-index: 5;
+  position: relative;
+  background: #151515cd;
   border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
+  padding: 80px 50px;
+  margin-top: -70px;
 }
 
 .skill h2 {
@@ -390,19 +393,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .background-image-left {
-  top: 28%;
   position: absolute;
   bottom: 0;
-  width: 40%;
-  z-index: -4;
+  right: 0;
+  z-index: 0;
 }
 
 /************ Projects CSS ************/
 
 .project {
-  padding: 80px 0;
+  padding: 0px 0;
   position: relative;
-  background-image: linear-gradient(to bottom, #5e229d, #000000);
+  background-image: linear-gradient(to bottom,  #6c229d, #000000);
 }
 
 .project h2 {
@@ -482,12 +484,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Contact CSS ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background-image: linear-gradient(to bottom, #000000, #60106b); 
   padding: 60px 0 200px 0;
 }
 
 .contact img {
-  width: 92%;
+  width: 65%;
 }
 
 .contact h2 {
@@ -572,21 +574,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
 }
 
-.newsletter-bx {
-  background: #FFFFFF;
-  border-radius: 55px;
-  color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
-}
-
-.newsletter-bx h3 {
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  line-height: 1.2em;
-}
-
 .new-email-bx {
   background: #fff;
   padding: 5px;
@@ -649,4 +636,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+/************ Scrollbar ************/
+
+:root { 
+  background-color:  #6c229d;
+}
+
+::-webkit-scrollbar {
+  width: 13px; /* Vertical */
+  height: 13px; /* Horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #3a006700;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  background: #511241 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 20px;
+  background: #3d0d31 !important;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
 }

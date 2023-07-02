@@ -14,7 +14,7 @@ export const NavBar = () => {
   const [open, setOpen] = useState(false);
   const [open2, setOpen2] = useState(false);
 
-  {/* To change background color */}
+  {/* To change background color on NavBar*/}
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
@@ -39,15 +39,16 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
 
-          <Navbar.Brand href="/">
-            <h1>Taylor Evans</h1>
-          </Navbar.Brand>
-
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
 
           <Navbar.Collapse id="basic-navbar-nav">
+
+          <Navbar.Brand href="/">
+            <h1>Taylor Evans &nbsp;</h1>
+          </Navbar.Brand>
+
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
