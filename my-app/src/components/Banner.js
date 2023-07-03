@@ -1,5 +1,6 @@
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { Container, Row, Col } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import TrackVisibility from 'react-on-screen';
 import Typed from 'react-typed';
 import headerImg from "../assets/img/header-img.svg";
@@ -27,7 +28,9 @@ export const Banner = () => {
                 I have a Bachelor of Science degree in computer science. 
                 Web design combines my two favorite hobbies: coding and art!</p>
 
-                <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <Nav>
+                <Nav.Link href="#connect"><button>Let’s Connect <ArrowRightCircle size={25} /></button></Nav.Link>
+                </Nav>
               </div>}
 
             </TrackVisibility>

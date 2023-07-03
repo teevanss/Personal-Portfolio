@@ -11,7 +11,7 @@ export const Footer = () => {
   const [open2, setOpen2] = useState(false);
 
   return (
-    
+
     <footer className="footer">
       <Container>
         <Row className="align-items-center">
