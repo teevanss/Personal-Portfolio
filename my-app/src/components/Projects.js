@@ -1,9 +1,11 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 import colorSharp2 from "../assets/img/color-sharp2.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -35,6 +37,18 @@ export const Projects = () => {
       imgUrl: projImg3,
       link: "https://github.com/teevanss/DuckyForms",
     },
+    {
+      title: "My Portfolio",
+      description: "My (Taylor Evans) Digital Portfolio.",
+      imgUrl: projImg6,
+      link: "https://taylor-evans-portfolio.onrender.com/",
+    },
+    {
+      title: "BeeFit",
+      description: "A virtual pet website where users can take care of their pet by taking care themselves.",
+      imgUrl: projImg5,
+      link: "https://github.com/teevanss/BeeFit",
+    },
   ];
 
   return (
@@ -52,7 +66,7 @@ export const Projects = () => {
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                      <Row style = {{justifyContent: "space-around"}}>
+                      <Row>
                         {
                           projects.map((project, index) => {
                             return (

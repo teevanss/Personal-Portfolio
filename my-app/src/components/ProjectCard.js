@@ -5,7 +5,7 @@ export const ProjectCard = ({ title, description, imgUrl, link }) => {
   const parseLink = link.replace('"', '')
   return (
 
-    <Col size={12} sm={8} md={4}> 
+    <Col size={12} sm={6} md={4}>
     <a href={parseLink}>
       <div className="proj-imgbx">
         <img src={imgUrl} />
