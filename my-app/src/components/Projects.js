@@ -14,40 +14,40 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "MyLyfe",
-      description: "A social media website where users can track and complete goals. Users can also share their progress and show their support for others!",
-      imgUrl: projImg1,
-      link: "https://webdev.cse.buffalo.edu/hci/teams/aquafit",
+      title: "BeeFit 2023",
+      description: "A virtual pet website where users can take care of their pet by taking care themselves.",
+      imgUrl: projImg5,
+      link: "https://github.com/teevanss/BeeFit",
     },
     {
-      title: "TicketCity",
-      description: "A decentralized Ticketmaster application with the goal of eliminating price gouging using blockchain technology.",
-      imgUrl: projImg2,
-      link: "https://github.com/teevanss/TicketCity",
-    },
-    {
-      title: "Strays in Tokyo",
-      description: "A chat application that includes account creation so that users can express themselves by uploading a profile picture and creating a username.",
-      imgUrl: projImg4,
-      link: "https://github.com/teevanss/Strays-in-Tokyo",
-    },
-    {
-      title: "DuckyForms",
-      description: "A survery creation website where users can create, browse, and take surveys.",
-      imgUrl: projImg3,
-      link: "https://github.com/teevanss/DuckyForms",
-    },
-    {
-      title: "My Portfolio",
+      title: "My Portfolio 2023",
       description: "My (Taylor Evans) Digital Portfolio.",
       imgUrl: projImg6,
       link: "https://taylor-evans-portfolio.onrender.com/",
     },
     {
-      title: "BeeFit",
-      description: "A virtual pet website where users can take care of their pet by taking care themselves.",
-      imgUrl: projImg5,
-      link: "https://github.com/teevanss/BeeFit",
+      title: "MyLyfe 2023",
+      description: "A social media website where users can track and complete goals. Users can also share their progress and show their support for others!",
+      imgUrl: projImg1,
+      link: "https://webdev.cse.buffalo.edu/hci/teams/aquafit",
+    },
+    {
+      title: "TicketCity 2023",
+      description: "A decentralized Ticketmaster application with the goal of eliminating price gouging using blockchain technology.",
+      imgUrl: projImg2,
+      link: "https://github.com/teevanss/TicketCity",
+    },
+    {
+      title: "Strays in Tokyo 2022",
+      description: "A chat application that includes account creation so that users can express themselves by uploading a profile picture and creating a username.",
+      imgUrl: projImg4,
+      link: "https://github.com/teevanss/Strays-in-Tokyo",
+    },
+    {
+      title: "DuckyForms 2022",
+      description: "A survery creation website where users can create, browse, and take surveys.",
+      imgUrl: projImg3,
+      link: "https://github.com/teevanss/DuckyForms",
     },
   ];
 
