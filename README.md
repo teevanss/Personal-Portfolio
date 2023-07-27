@@ -1,5 +1,5 @@
 # Welcome to my Portfolio!
-# Thanks for visiting :D
+# Thanks for visiting!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
