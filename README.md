@@ -9,4 +9,4 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
  2. `npm start`
 
- 3. Open [http://localhost:3001](http://localhost:3001) to view it in your browser.
+ 3. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
